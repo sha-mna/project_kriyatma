@@ -1,38 +1,279 @@
-.App {
-  text-align: center;
+body {
+  	margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex {
+ 	display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar {
+	width: 26.9%;
+	height: 100vh;
+	flex-shrink: 0;
+	background-color: rgb(245, 138, 67);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	background-color: #f2f2f2;
+	width: 80%;
+	padding: 30px 130px 30px 60px;
+	flex-grow: 1;
+}
+
+.mainBox {
+	height: 120px;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: white;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 10px;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 5px;
+}
+
+.cost {
+
+}
+
+.costOne {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.costTwo {
+	padding: 0.2rem;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 400;
+}
+
+.btn {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	cursor: pointer;
+	background-color: rgb(241, 242, 244);
+	border: none;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-weight: 600;
+	color: #6c6cf7;
+	font-size: 14px;
+	height: 74px;
+	border-radius: 10px;
+	padding: 20px;
+
+}
+
+.get {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.arrow {
+	height: 25px;
+	width: 25px;
+	/* font-size: 20px; */
+	/* font-weight: bold; */
+	margin-top: .25inch;
+	margin-right: -8px;	
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainBoxOne {
+	height: inherit;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: white;
 }
+
+.divThree {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.headerOne {
+	display: flex;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.upArrow {
+	color: rgb(222, 219, 219);
+	border: none;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+
+.costA {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.viewMore {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.more {
+	padding-right: .75rem;
+	margin-top: .5rem;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	width: inherit;
+}
+
+.divFour {
+	border-top: 1px solid lightgray;
+	margin-top: 10px;
+}
+
+.quest {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.question {
+	font-size: 12px;
+	color: gray;
+	font-weight: 600;
+}
+
+.plus {
+	height: 25px;
+	width: 25px;
+	color: gray;
+	cursor: pointer;
+	border: none;
+	padding: 0;
+	justify-content: center;
+	background-color: white;
+}
+
+.questionOne {
+	font-size: 17px;
+	font-weight: 500;
+	opacity: .9;
+}
+
+/* .flex {
+	display: flex;
+} */
+
+.littleBlue {
+	display: flex;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 5px;
+	background-color: #EEF5FF;
+	width: 290px;
+	height: 15px;
+	cursor: pointer;
+}
+.addHover {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+
+.need {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	font-weight: 600;
+	color: rgb(23, 107, 135);
+}
+
+.returnArrow {
+	width: 20px;
+	margin-right: 5px;
+	font-size: 15px;
+}
+
+.circle {
+	height: 12px;
+	width: 12px;
+	margin-left: 30px;
+	color: rgb(23, 107, 135);
+}
+
+.spark {
+	width: 20px;
+	margin-right: 5px;
+	font-size: 15px;
+}
+
+.littleBlueOne {
+	display: flex;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 5px;
+	background-color: #EEF5FF;
+	width: 290px;
+	height: 15px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+ .bigBlue {
+	width: 700px;
+	height: 250px;
+	background-color: #EEF5FF;
+	border-radius: 10px;
+ }
+
+.needOne {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	font-weight: 600;
+	color: rgb(23, 107, 135);
+	margin-top: 20px;
+}
+
+.circleOne {
+	height: 12px;
+	width: 12px;
+	margin-left: 30px;
+	color: blue;
+}
+
+.contextAndIcon {
+	display: flex;
+	background-color: white;
+	width: 350px;
+	height: 40px;
+	margin-left: 10px;
+	border-radius: 25px;
+}
+
+.context {
+	font-size: 14px;
+	padding: 10px;	
+}
+
